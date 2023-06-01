@@ -1,0 +1,93 @@
+html {
+    font-size: 16px;
+    padding: 15px;
+}
+body {
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    min-width: 320px;
+    
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.logo {
+    width: 200px;
+}
+section {
+    padding: 50px 0;
+}
+
+a {
+    color: #111;
+}
+
+a:hover {
+   color: #555 ; 
+}
+
+/* HEADER */
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #111;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    right: 0;
+    left: auto;
+}
+
+.top-menu li a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #111;
+    height: 1px;
+    transition: all 0.5s;
+    transform: scale(0);    
+}
+.top-menu li a:hover:after{
+    transform: scale(1);
+}
+
+/* Для картинок задаем размеры */
+
+.modal-body img {
+    max-width: 200px;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Carousel */
+.my-carousel {
+    padding: 0;
+}
+.my-carousel .carousel-item {
+    display: flex;
+    max-height: 400px;
+}
+.my-carousel .carousel-item  img{
+    object-fit: cover;
+}
+
+.location {
+    margin-left: 20px;
+}
+.container-fluid {
+    background-color: white;
+}
+
